@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My GitHub Pages Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h1>My Website</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="nav-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Welcome to My Website</h1>
+                    <p class="hero-subtitle">A beautiful, responsive website built for GitHub Pages</p>
+                    <div class="hero-buttons">
+                        <a href="#about" class="btn btn-primary">Learn More</a>
+                        <a href="#projects" class="btn btn-secondary">View Projects</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="hero-placeholder">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">About</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>This is a modern, responsive website designed to showcase your projects and skills. Built with clean HTML, CSS, and JavaScript, it's perfect for hosting on GitHub Pages.</p>
+                        <p>Features include:</p>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check"></i> Responsive design</li>
+                            <li><i class="fas fa-check"></i> Modern animations</li>
+                            <li><i class="fas fa-check"></i> Clean typography</li>
+                            <li><i class="fas fa-check"></i> Easy customization</li>
+                        </ul>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>100%</h3>
+                            <p>Responsive</p>
+                        </div>
+                        <div class="stat">
+                            <h3>Fast</h3>
+                            <p>Loading</p>
+                        </div>
+                        <div class="stat">
+                            <h3>Modern</h3>
+                            <p>Design</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="project-content">
+                            <h3>Project One</h3>
+                            <p>A description of your first project. Explain what it does and what technologies you used.</p>
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <div class="project-content">
+                            <h3>Project Two</h3>
+                            <p>Another amazing project description. Highlight the key features and your role in development.</p>
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <div class="project-content">
+                            <h3>Project Three</h3>
+                            <p>Your third project showcase. Describe the problem it solves and the impact it had.</p>
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Contact</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Get in Touch</h3>
+                        <p>I'm always interested in new opportunities and collaborations. Feel free to reach out!</p>
+                        <div class="contact-methods">
+                            <div class="contact-method">
+                                <i class="fas fa-envelope"></i>
+                                <span>your.email@example.com</span>
+                            </div>
+                            <div class="contact-method">
+                                <i class="fab fa-github"></i>
+                                <span>github.com/yourusername</span>
+                            </div>
+                            <div class="contact-method">
+                                <i class="fab fa-linkedin"></i>
+                                <span>linkedin.com/in/yourprofile</span>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 My Website. Built with ❤️ for GitHub Pages.</p>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
